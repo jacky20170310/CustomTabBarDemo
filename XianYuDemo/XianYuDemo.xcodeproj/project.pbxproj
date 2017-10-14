@@ -14,6 +14,7 @@
 		C58CC5B71F924F950013778B /* FishpondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5B61F924F950013778B /* FishpondViewController.swift */; };
 		C58CC5B91F924FA10013778B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5B81F924FA10013778B /* MessageViewController.swift */; };
 		C58CC5BB1F924FAE0013778B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5BA1F924FAE0013778B /* AccountViewController.swift */; };
+		C58CC5BD1F925A5A0013778B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5BC1F925A5A0013778B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C58CC5B61F924F950013778B /* FishpondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishpondViewController.swift; sourceTree = "<group>"; };
 		C58CC5B81F924FA10013778B /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C58CC5BA1F924FAE0013778B /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C58CC5BC1F925A5A0013778B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				C58CC5B21F924F6A0013778B /* MainViewController.swift */,
+				C58CC5BC1F925A5A0013778B /* TabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				C58CC5B31F924F6A0013778B /* MainViewController.swift in Sources */,
 				C58CC5B51F924F830013778B /* HomeViewController.swift in Sources */,
 				C58CC5B91F924FA10013778B /* MessageViewController.swift in Sources */,
+				C58CC5BD1F925A5A0013778B /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
