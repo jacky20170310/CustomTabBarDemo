@@ -15,6 +15,8 @@
 		C58CC5B91F924FA10013778B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5B81F924FA10013778B /* MessageViewController.swift */; };
 		C58CC5BB1F924FAE0013778B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5BA1F924FAE0013778B /* AccountViewController.swift */; };
 		C58CC5BD1F925A5A0013778B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5BC1F925A5A0013778B /* TabBar.swift */; };
+		C58CC5BF1F925EF90013778B /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5BE1F925EF90013778B /* UIButton-Extension.swift */; };
+		C58CC5C11F92F5EE0013778B /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58CC5C01F92F5EE0013778B /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C58CC5B81F924FA10013778B /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C58CC5BA1F924FAE0013778B /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		C58CC5BC1F925A5A0013778B /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		C58CC5BE1F925EF90013778B /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		C58CC5C01F92F5EE0013778B /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,7 @@
 		C58CC5A51F924F2C0013778B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C58CC5BE1F925EF90013778B /* UIButton-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			children = (
 				C58CC5B21F924F6A0013778B /* MainViewController.swift */,
 				C58CC5BC1F925A5A0013778B /* TabBar.swift */,
+				C58CC5C01F92F5EE0013778B /* Button.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -367,6 +373,8 @@
 				C58CC5B51F924F830013778B /* HomeViewController.swift in Sources */,
 				C58CC5B91F924FA10013778B /* MessageViewController.swift in Sources */,
 				C58CC5BD1F925A5A0013778B /* TabBar.swift in Sources */,
+				C58CC5C11F92F5EE0013778B /* Button.swift in Sources */,
+				C58CC5BF1F925EF90013778B /* UIButton-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
